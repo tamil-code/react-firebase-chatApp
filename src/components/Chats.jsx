@@ -16,10 +16,9 @@ const Chats = () => {
   
   useEffect(()=>{
     
-      console.log("chats useffect");
       onAuthStateChanged(auth,(user)=>{
         dispatch(Authactions.Login(user));
-        console.log(user);  
+         
          
      })
     
