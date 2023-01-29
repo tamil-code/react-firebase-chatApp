@@ -1,0 +1,21 @@
+.profile-card{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+.profile-card:hover{
+    background-color: #2f2d52;
+}
+.lastMessage{
+  font-size: 14px;
+  color:gray;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap:1px;
+
+}
